@@ -163,6 +163,50 @@
   margin-top: 30px;
 }
 
+/* Flower & Plants Lover styles */
+.plants-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+
+  width: 1140px;
+  height: 597px;
+  margin: 210px auto;
+}
+.plants-img-1 {
+  position: relative;
+  width: 540px;
+  height: 597px;
+  
+}
+.plants-img-2 {
+  position: absolute;
+  transform: translate(-60%, -45%);
+  
+  width: 286px;
+  height: 286px;
+  padding: 20px;
+  
+}
+.plants-text {
+  /* width: 540px;
+  height: 521px; */
+  text-align: left;
+}
+.plants-text h1 {
+  font-family: Noto Serif;
+  font-size: 50px;
+  font-weight: bold;
+  color: #000000;
+}
+.plants-text ul li {
+  font-family: Inter;
+  font-size: 22px;
+  color: rgba(0, 0, 0, 0.5);
+  margin: 20px 30px;
+}
+
 @media screen and (max-width: 692px) {
   .nav-items {
     display: none;
